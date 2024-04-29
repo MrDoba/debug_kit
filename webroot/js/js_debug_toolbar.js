@@ -80,7 +80,7 @@ var DEBUGKIT = function () {
 			req.open('get', window.DEBUGKIT_JQUERY_URL, true);
 			req.send();
 		}
-	}, 0);
+	}, 1000);
 })();
 
 DEBUGKIT.loader = function () {
